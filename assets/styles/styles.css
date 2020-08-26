@@ -1,4 +1,29 @@
 body {
     /* background-color: rosybrown; */
+    /* background-color: seagreen; */
+}
+.sec {
+    /* width: 500px;
+   min-width: 200px; */
+   min-height: 20vh;
+}
+.sec1 {
     background-color: seagreen;
+
+}
+.sec2 {
+    background-color: sienna;
+}    
+.sec3 {
+    background-color: slateblue;
+}    
+.sec4 {
+    background-color: rgb(122, 121, 156);
+}    
+.sec5 {
+   background-color: rgba(235, 11, 255, 0.945);
+}
+
+img {
+    display: block;
 }
