@@ -36,10 +36,12 @@ img {
     width: 100px;
     height: 100px;
 }
-.opinion-card img {
+.opinion-card img,
+.debate img {
     width: 63px;
 }
-.opinion-card p {
+.opinion-card p,
+.debate p {
     color: var(--opinion-author-text-color);
     font-size: 0.875rem;
     line-height: 1.23;
@@ -52,4 +54,14 @@ img {
 .moreS-contentBox h6 {
     font-size: 0.9444rem;
     line-height: 1.17;
+}
+
+.debate-middle  {
+    border-top: 3px double #D9D9D9;
+    
+}
+ .debate-middle p {
+     padding: 7px;
+    left: 50%;
+    top: -12px;
 }
