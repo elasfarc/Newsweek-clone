@@ -30,10 +30,19 @@ img {
 
 :root {
     --p-color: #333;
+    --opinion-author-text-color: #555;
 }
 .moreS-card img {
     width: 100px;
     height: 100px;
+}
+.opinion-card img {
+    width: 63px;
+}
+.opinion-card p {
+    color: var(--opinion-author-text-color);
+    font-size: 0.875rem;
+    line-height: 1.23;
 }
 .moreS-contentBox p {
     font-size: 0.8125rem;
