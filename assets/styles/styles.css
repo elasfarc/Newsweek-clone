@@ -27,3 +27,20 @@ body {
 img {
      /* width: 100%;  */
 }
+
+:root {
+    --p-color: #333;
+}
+.moreS-card img {
+    width: 100px;
+    height: 100px;
+}
+.moreS-contentBox p {
+    font-size: 0.8125rem;
+    line-height: 1.38;
+    color: var(--p-color);
+} 
+.moreS-contentBox h6 {
+    font-size: 0.9444rem;
+    line-height: 1.17;
+}
