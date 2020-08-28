@@ -1,6 +1,6 @@
 body {
-    /* background-color: rosybrown; */
-    /* background-color: seagreen; */
+     background-color: #F4F4F7; 
+     /* background-color: seagreen;  */
 }
 .sec {
     /* width: 500px;
@@ -23,6 +23,9 @@ body {
 .sec5 {
    background-color: rgba(235, 11, 255, 0.945);
 }
+ .twot {
+    /* margin-top: 100px !important; */
+} 
 
 img {
      /* width: 100%;  */
