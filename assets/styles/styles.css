@@ -43,6 +43,9 @@ img {
 .debate img {
     width: 63px;
 }
+.ePick-c3 img {
+    width: 95px;
+}
 .opinion-card p,
 .debate p {
     color: var(--opinion-author-text-color);
