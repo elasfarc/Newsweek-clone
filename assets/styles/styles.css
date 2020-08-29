@@ -71,3 +71,10 @@ img {
     left: 50%;
     top: -12px;
 }
+.covers img {
+    height: 227px;
+}
+#subscribe-cover2 {
+    left: 43%;
+    top: 7%; 
+}
