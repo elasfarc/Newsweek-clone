@@ -37,6 +37,10 @@ img {
     --p-color: #333;
     --opinion-author-text-color: #555;
 }
+/* base */
+.my-turn a:hover{
+    color: var(--header-label-color);
+}
 
 /* typography */
 .header-label-text {
@@ -44,7 +48,7 @@ img {
     line-height: 1;
     color: var(--header-label-color);
     font-weight: 400;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .header-main-heading {
     font-size: 1.375rem;
@@ -56,6 +60,11 @@ img {
     font-size: 0.9375rem;
     line-height: 1.3333;
     color: var(--p-color);
+}
+.my-turn-text  {
+    color: var(--header-label-color);
+    font-size: 1rem;
+    line-height: 1.1875;
 }
 /* end typography */
 
