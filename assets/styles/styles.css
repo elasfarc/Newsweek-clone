@@ -58,6 +58,13 @@ a:hover {
 .my-turn a:hover{
     color: var(--header-label-color);
 }
+.section-label {
+    height: 32px;
+    width: 95px; 
+    background-color: rgba(240, 240, 240, 0.9);
+    top:100%;
+    transform: translateY(-100%);
+}
 
 /* typography */
 .header-label-text {
@@ -138,7 +145,8 @@ a:hover {
     left: 50%;
     top: -12px;
 }
-.inTheMag-cardLabel p {
+.inTheMag-cardLabel p,
+.section-label p {
     color: var(--main-theme-color);
     cursor: pointer;
 }
