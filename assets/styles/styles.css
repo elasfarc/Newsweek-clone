@@ -1,6 +1,7 @@
 body {
      background-color: #F4F4F7; 
      /* background-color: seagreen;  */
+     font-family: 'Roboto Condensed', sans-serif;
 }
 .sec {
     /* width: 500px;
@@ -32,8 +33,35 @@ img {
 }
 
 :root {
+    --header-label-color: #9A9A9A;
     --p-color: #333;
     --opinion-author-text-color: #555;
+}
+
+/* typography */
+.header-label-text {
+    font-size: 16px;
+    line-height: 1;
+    color: var(--header-label-color);
+    font-weight: 400;
+    padding-top: 20px;
+}
+.header-main-heading {
+    font-size: 1.375rem;
+    line-height: 1.09;
+    font-weight: 700;
+}
+.p-text {
+    font-family: 'Arial';
+    font-size: 0.9375rem;
+    line-height: 1.3333;
+    color: var(--p-color);
+}
+/* end typography */
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .moreS-card img {
     width: 100px;
