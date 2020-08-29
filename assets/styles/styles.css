@@ -72,6 +72,14 @@ img {
     max-width: 1300px;
     margin: 0 auto;
 }
+.moreS-card-wrapper::before {
+    content: '';
+    display: block;
+    flex-direction: column;
+    border-top: 0.5px solid #ddd ;
+    width:94%;
+    margin: 10px auto auto;
+}
 .moreS-card img {
     width: 100px;
     height: 100px;
