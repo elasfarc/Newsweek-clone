@@ -36,8 +36,25 @@ img {
     --header-label-color: #9A9A9A;
     --p-color: #333;
     --opinion-author-text-color: #555;
+    --main-theme-color: #E11C1F;
 }
 /* base */
+ a {
+    text-decoration: none;
+    color: black;
+}
+/*
+a:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid red;
+} */
+a:hover {
+    color:orangered;
+}
+.spany:hover {
+    color: black;
+}
 .my-turn a:hover{
     color: var(--header-label-color);
 }
@@ -53,6 +70,11 @@ img {
 .header-main-heading {
     font-size: 1.375rem;
     line-height: 1.09;
+    font-weight: 700;
+}
+.otherSections-main-heading {
+    font-size: 1.25rem;
+    line-height: 1;
     font-weight: 700;
 }
 .p-text {
@@ -115,6 +137,14 @@ img {
      padding: 7px;
     left: 50%;
     top: -12px;
+}
+.inTheMag-cardLabel p {
+    color: var(--main-theme-color);
+    cursor: pointer;
+}
+.inTheMag-cardLabel span {
+    background-color: var(--main-theme-color);
+    cursor: default;
 }
 .covers img {
     height: 227px;
