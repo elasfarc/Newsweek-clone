@@ -67,6 +67,15 @@ a:hover {
 }
 
 /* typography */
+.navbar-2 {
+    font-size: 1.1875rem;
+    line-height: 1.263; 
+}
+.navbar-3 {
+    font-size: 16px;
+    line-height: 1;
+    color: var(--header-label-color) ;
+}
 .header-label-text {
     font-size: 16px;
     line-height: 1;
