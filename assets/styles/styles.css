@@ -175,6 +175,7 @@ a:hover {
     background-color: var(--main-theme-color);
     cursor: default;
 }
+
 .covers img {
     height: 227px;
 }
@@ -192,6 +193,12 @@ a:hover {
 /* .newsletter-imgBox {
     min-height: 300px;
 } */
+
+@media screen and (min-width: 760px) {
+    .EP-container {
+        margin-bottom: 3px !important;
+    }
+}
 
 @media screen and (min-width: 992px) {
     .newsletter-body,
