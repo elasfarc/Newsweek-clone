@@ -100,6 +100,21 @@ a:hover {
     font-size: 1rem;
     line-height: 1.1875;
 }
+.small-text {
+    font-family: '.Helvetica Neue Interface';
+    font-size: 0.9075rem;
+    line-height: 1.4;
+    color: var(--header-label-color);
+}
+.btn {
+    color: white;
+    background-color: var(--main-theme-color);
+    font-size: 1.125rem;
+    line-height: 1;
+}
+.btn:hover {
+    color: white;
+}
 /* end typography */
 
 .wrapper {
@@ -177,3 +192,25 @@ a:hover {
 /* .newsletter-imgBox {
     min-height: 300px;
 } */
+
+@media screen and (min-width: 992px) {
+    .newsletter-body,
+    .input-wrapper {
+       width: 75%;
+       margin: 0 auto;
+   } 
+}
+
+@media (max-width:990px) {
+
+    .newsletter-wrapper {
+        width: 100%;
+    }
+    .newsletter-body,
+    .input-wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+

@@ -1134,7 +1134,7 @@
       <!--end IN THE MAGAZINE container-->
 
       <!--EDITOR'S PICK container-->
-      <div class="container-fluid bg-white my-5 my-md-3 ml-2">
+      <div class="container-fluid bg-white my-4 my-md-0 ml-2">
         <div class="d-flex align-items-center justify-content-center border-bottom pb-1">
           <img class="position-relative" style="top:7px" src="./assets/imgs/n-logo.png" width="28" height="28" alt="">
           <h6 class="header-main-heading text-uppercase text-center mt-4 pl-2">EDITOR'S PICK</h6>
@@ -2032,12 +2032,11 @@
       <!--end EDITOR'S PICK container-->
 
       <!--subscribe-newsletter container-->
-      <div class="container-fluid">
+      <div class="container-fluid mx-2">
         <div class="row">
           <!--subscribe-->
-          <div class="col-12 col-lg-7 mb-3 mb-lg-0 bg-white">
-            subscribe
-
+          <div class="col-12 col-lg-7  mb-3 mb-lg-0 bg-white">
+            <h6 class="header-main-heading E-PICK-subHead text-uppercase font-weight-bold mt-3 py-1">subscribe</h6>
             <div
               class="subscribe d-flex justify-content-between py-4 px-4"
               style="background-color: #f4f5f6"
@@ -2056,18 +2055,18 @@
                   alt=""
                 />
               </div>
-              <div class="body ml-5">
-                <a href="#"
-                  ><h5 class="font-weight-bold">
+              <div class="body ml-5 d-flex flex-column">
+                
+                  <h5 class="font-weight-bold header-main-heading my-4">
                     In-depth Stories You Don't See Elsewhere About Topics You
                     Want to Read!
                   </h5>
-                </a>
-                <small class="">
+                
+                <p class="small-text w-75">
                   All Access + Weekly Delivery. Choose A Membership That's
                   Perfect for You!
-                </small>
-                <a href="#"><p class="mt-3">SUBSCRIBE</p></a>
+                </p>
+                <a href="#"><p class="btn mt-2">SUBSCRIBE</p></a>
               </div>
             </div>
           </div>
@@ -2075,24 +2074,35 @@
 
           <!--newletter-->
           <div class="newsletter col-12 col-lg-5 mb-3 mb-lg-0 bg-white">
-            NEWSLETTER
-            <div class="d-flex">
+            <h6 class="header-main-heading E-PICK-subHead text-uppercase font-weight-bold mt-3 py-1">newsletter</h6>
+            <div class="d-flex border">
               <div class="newsletter-imgBox d-none d-md-block">
                 <img
-                  class="img-fluid"
+                  class="" height="268" width="200"
                   src="./assets/imgs/starting5-homepage0.png"
                   alt=""
                 />
               </div>
 
-              <div class="newsletter-body ml-5">
-                <h5 class="font-weight-bold">The Starting 5</h5>
-                <small class="">
-                  See why nearly a quarter of a million subscribers begin their
-                  day with the Starting 5.
-                </small>
-                <input class="mt-3" type="email" placeholder="Email address" />
-                <a href="#"><p class="mt-3 text-uppercase">free sign up</p></a>
+              <div class="newsletter-wrapper py-4 pl-lg-2 text-center text-md-left">
+                <div class="newsletter-body ">
+                  <h5 class="font-weight-bold mb-3">The Starting 5</h5>
+                  <p class="small-text">
+                    See why nearly a quarter of a million subscribers begin
+                    their day with the Starting 5.
+                  </p>
+                </div>
+
+                <div class="input-wrapper d-flex flex-column">
+                  <input
+                    class="mt-3"
+                    type="email"
+                    placeholder="Email address"
+                  />
+                  <a class="text-center" href="#"
+                    ><p class="btn mt-3 text-uppercase w-100">free sign up</p></a
+                  >
+                </div>
               </div>
             </div>
           </div>
