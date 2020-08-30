@@ -84,6 +84,11 @@ a:hover {
     line-height: 1;
     font-weight: 700;
 }
+.EP-aside-heading {
+    font-size: 1.0625rem;
+    line-height: 1.23;
+    font-weight: 700;
+}
 .p-text {
     font-family: 'Arial';
     font-size: 0.9375rem;
@@ -146,7 +151,8 @@ a:hover {
     top: -12px;
 }
 .inTheMag-cardLabel p,
-.section-label p {
+.section-label p,
+.E-PICK-subHead{
     color: var(--main-theme-color);
     cursor: pointer;
 }
