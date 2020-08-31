@@ -89,13 +89,9 @@ a:hover {
     position: relative;
 }
 .sticky-nav {
-     min-height: 50px; 
-    
- position: fixed; 
- width: 87.5%;
- z-index: 2;
- 
-
+    position: sticky;
+    top:0;
+    z-index: 5;
 }
 
 .sticky-nav i {
@@ -267,6 +263,15 @@ footer li {
     footer li {
         border-right: 0.5px solid #bbb6b667;
     }
+    .sticky-nav {
+        min-height: 50px; 
+       
+    position: fixed; 
+    width: 99.5%;
+    z-index: 2;
+    
+   
+   }
 }
 
 @media screen and (min-width: 992px) {
@@ -275,6 +280,12 @@ footer li {
        width: 75%;
        margin: 0 auto;
    } 
+
+   .sticky-nav {
+    min-height: 50px; 
+   
+position: fixed; 
+max-width: 1300px;
 }
 
 @media (max-width:990px) {

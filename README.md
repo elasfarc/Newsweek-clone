@@ -1,2 +1,0 @@
-# Newsweek clone
- 
