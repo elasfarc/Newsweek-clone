@@ -62,6 +62,9 @@ a:hover {
 .spany:hover {
     color: black;
 }
+.my-turn img {
+    cursor: pointer;
+}
 .my-turn a:hover{
     color: var(--header-label-color);
 }
@@ -201,7 +204,10 @@ a:hover {
     font-size: 0.9444rem;
     line-height: 1.17;
 }
-
+.debate {
+    border-top: 3px double var(--header-label-color);
+    border-bottom: 3px double var(--header-label-color);
+}
 .debate-middle  {
     border-top: 3px double #D9D9D9;
     
