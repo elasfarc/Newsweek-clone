@@ -265,7 +265,6 @@ footer li {
     min-height: 50px;
     position: fixed;
     z-index: 1;
-
   }
 }
 
@@ -275,7 +274,6 @@ footer li {
     width: 75%;
     margin: 0 auto;
   }
-
 }
 
 @media (max-width: 990px) {
