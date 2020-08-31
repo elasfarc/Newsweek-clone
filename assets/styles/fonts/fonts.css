@@ -1,14 +1,17 @@
 @font-face {
-    font-family: 'Arial';
-    src: url('ArialMT.woff2') format('woff2'),
-        url('ArialMT.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Arial';
+  src:
+    url('ArialMT.woff2') format('woff2'),
+    url('ArialMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
-    font-family: '.Helvetica Neue Interface';
-    src: url('HelveticaNeueInterface-M3.woff2') format('woff2'),
-        url('HelveticaNeueInterface-M3.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: '.Helvetica Neue Interface';
+  src:
+    url('HelveticaNeueInterface-M3.woff2') format('woff2'),
+    url('HelveticaNeueInterface-M3.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
