@@ -42,6 +42,9 @@ img {
 .white-filter {
     filter: invert(99%) sepia(61%) saturate(86%) hue-rotate(219deg) brightness(116%) contrast(100%);
   }
+ .orange-filter {
+    filter: invert(30%) sepia(57%) saturate(7215%) hue-rotate(346deg) brightness(99%) contrast(112%);
+  }
 /* base */
  a {
     text-decoration: none;
@@ -237,6 +240,11 @@ a:hover {
     min-height: 300px;
 } */
 
+/* footer */
+.social i {
+    font-size: 25px;
+    margin-right: 8px;
+}
 @media screen and (min-width: 760px) {
     .MD-sections-splitter {
         margin-bottom: 3px !important;
