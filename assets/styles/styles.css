@@ -315,8 +315,8 @@ footer li {
   .sticky-nav {
     min-height: 50px;
     position: fixed;
-    width: 100%;
-    z-index: 2;
+    z-index: 1;
+
   }
 }
 
@@ -329,7 +329,7 @@ footer li {
 
   .sticky-nav {
     
-    max-width: 1300px;
+   
   }
 }
 
