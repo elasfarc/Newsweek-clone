@@ -245,9 +245,17 @@ a:hover {
     font-size: 25px;
     margin-right: 8px;
 }
+footer li {
+    font-size: 0.975rem;
+    line-height: 1.0714;
+    font-weight: 200;
+}
 @media screen and (min-width: 760px) {
     .MD-sections-splitter {
         margin-bottom: 3px !important;
+    }
+    footer li {
+        border-right: 0.5px solid #bbb6b667;
     }
 }
 
