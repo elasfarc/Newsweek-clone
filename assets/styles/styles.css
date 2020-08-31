@@ -85,12 +85,16 @@ a:hover {
 }
 .main-header {
     min-height: 100px;
-
+    z-index: 3;
+    position: relative;
 }
 .sticky-nav {
      min-height: 50px; 
     
-    /* position: fixed; */
+ position: fixed; 
+ width: 87.5%;
+ z-index: 2;
+ 
 
 }
 
