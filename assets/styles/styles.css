@@ -37,7 +37,11 @@ img {
     --p-color: #333;
     --opinion-author-text-color: #555;
     --main-theme-color: #E11C1F;
+    --nav-bg-color: #FF1C1F;
 }
+.white-filter {
+    filter: invert(99%) sepia(61%) saturate(86%) hue-rotate(219deg) brightness(116%) contrast(100%);
+  }
 /* base */
  a {
     text-decoration: none;
@@ -67,12 +71,33 @@ a:hover {
 }
 
 /* typography */
+.sticky-nav,
+.main-header{
+    background-color: var(--nav-bg-color);
+    font-size: 18px;
+    line-height: 1.67;
+}
+.main-header {
+    min-height: 100px;
+
+}
+.sticky-nav {
+     min-height: 50px; 
+    
+    /* position: fixed; */
+
+}
+
+.sticky-nav i {
+    color:#FF999A;
+    font-size: 26px;
+}
 .navbar-2 {
     font-size: 1.1875rem;
     line-height: 1.263; 
 }
 .navbar-3 {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1;
     color: var(--header-label-color) ;
 }
@@ -124,7 +149,16 @@ a:hover {
 .btn:hover {
     color: white;
 }
+.nav-btn {
+    background-color: #FFE43F;
+    border-radius: 500px;
+}
 /* end typography */
+
+/* nav */
+.X:first-child{
+    margin-left: 10px;
+}  
 
 .wrapper {
     max-width: 1300px;
@@ -204,7 +238,7 @@ a:hover {
 } */
 
 @media screen and (min-width: 760px) {
-    .EP-container {
+    .MD-sections-splitter {
         margin-bottom: 3px !important;
     }
 }

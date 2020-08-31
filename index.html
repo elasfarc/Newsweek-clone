@@ -13,6 +13,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/styles/fonts/fonts.css" />
+
+    <!--fontawsome-->
+    <script
+    src="https://kit.fontawesome.com/e53eea7683.js"
+    crossorigin="anonymous"
+  ></script>
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -28,12 +35,180 @@
   </head>
 
   <body>
-
-
     <!--wrapper with max width-->
-    <div class="wrapper border-top">
+    <div class="wrapper ">
+      <!--NAV-->
+      <!--sticky-nav-->
+      <div class="sticky-nav d-lg-none sticky-top ">
+        <nav class=" navbar navbar-expand  justify-content-between align-items-center">
+          <a class="navbar-brand" href="#">
+            <img class="white-filter" src="./assets/imgs/logo-main.png" alt="" width="132" height="20">
+          </a>
+          <div class="navbar-nav d-flex align-items-center">
+            <a class="nav-item nav-link" href="#">
+              <p class="my-0 text-white font-weight-bold">LOGIN</p>
+            </a>
+            <a class="nav-item nav-link" href="#">
+              <p class="nav-btn my-0 font-weight-bold px-3">SUBSCRIBE</p>
+            </a>
+            <a class="nav-item nav-link" href="#">
+              <i class="fas fa-bars"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <!-- end sticky-nav-->
+
+      <!--main header-->
+      <header class="main-header d-none d-lg-flex justify-content-between align-items-center">
+
+        <!--header-left-most-->
+        <div class="header-left-most d-flex flex-column text-white pl-4 mt-0 pt-0">
+          <div class="weather">
+            <img src="https://g.newsweek.com/img/weather/28.png" alt="" width="40">
+            27°Alexandria, EG
+          </div>
+          <div class="date">Sun, Aug 30, 2020</div>
+        </div>
+        <!--end header-left-most-->
+
+        <!--header-middle-->
+        <div class="header-middle ">
+          <img class="white-filter" src="./assets/imgs/logo-main.png" alt="">
+        </div>
+        <!--end header middle-->
+
+        <!--header-right-most-->
+        <div class="header-right-most d-flex align-items-center ">
+          <a class="" href="#">
+            <p class="my-0  text-white font-weight-bold">LOGIN</p>
+          </a>
+          <a class="nav-item nav-link" href="#">
+            <p class="nav-btn my-0 font-weight-bold px-3">SUBSCRIBE</p>
+          </a>
+        </div>
+        <!--end header-right-most-->
+
+      </header>
+      <!--End main header-->
+
+
+      
+
+      <!--nav-2-->
+      <div class="bg-white mt-0 text-nowrap">
+      
+        <nav class="MD-sections-splitter navbar navbar-expand bg-white d-none d-md-block">
+          <div class="navbar-nav">
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >U.S.</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >World</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Business</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Tech & Science</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Culture</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Newsgeek</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Sports</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Health</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >The Debate</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Vantage</a
+            >
+            <a
+              class="navbar-2 nav-item nav-link font-weight-bold border-right"
+              href="#"
+              >Weather</a
+            >
+          </div>
+        </nav>
+      </div>
+      <!--End nav-2-->
+
+      <!--nav-3-->
+      <div class="MD-sections-splitter container-fluid px-3 bg-white mt-0 d-none d-md-block">
+
+        <nav class="navbar navbar-expand bg-white">
+          <div class="container-fluid">
+            <div class="X navbar-nav">
+              <p
+                class="navbar-3 nav-item nav-link font-weight-bold"
+                style="color: black"
+                href="#"
+              >
+                TRENDING
+              </p>
+              <a
+                class="navbar-3 nav-item nav-link font-weight-bold text-uppercase ml-2 "
+                href="#"
+                >Donald Trump</a
+              >
+              <a
+                class="navbar-3 nav-item nav-link font-weight-bold text-uppercase ml-2"
+                href="#"
+                >Joe Biden</a
+              >
+              <a
+                class="navbar-3 nav-item nav-link font-weight-bold text-uppercase ml-2"
+                href="#"
+                >China</a
+              >
+              <a
+                class="navbar-3 nav-item nav-link font-weight-bold text-uppercase ml-2"
+                href="#"
+                >Coronavirus</a
+              >
+              <a
+                class="navbar-3 nav-item nav-link font-weight-bold text-uppercase ml-2"
+                href="#"
+                >2020 Election</a
+              >
+            </div>
+          </div>
+        </nav>
+
+      </div>
+      <!--end nav-3-->
+
+      <!--End NAV-->
+
       <!--content main container -->
-      <div class="container-fluid px-3 bg-white border-top mt-5">
+      <div class="container-fluid px-3 bg-white mt-0">
         <!--header for featured / debate / top-stories,more-stories,my-turn-->
         <header class="row">
           <!--featured-->
@@ -1161,7 +1336,9 @@
       <!--end IN THE MAGAZINE container-->
 
       <!--EDITOR'S PICK container-->
-      <div class="EP-container container-fluid bg-white my-4 my-md-0 ml-2">
+      <div
+        class="MD-sections-splitter container-fluid bg-white my-4 my-md-0 ml-2"
+      >
         <div
           class="d-flex align-items-center justify-content-center border-bottom pb-1"
         >
