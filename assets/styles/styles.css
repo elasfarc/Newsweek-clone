@@ -141,7 +141,7 @@ a:hover {
 
 .nav-btn {
   background-color: #ffe43f;
-  border-radius: 500px;
+  border-radius: 50px;
 }
 
 /* end typography */
@@ -277,18 +277,21 @@ footer li {
 }
 
  @media (max-width: 400.98px) {
-  .sticky-nav-rightmost a {
-    width: 60%;
-    font-size: 8px;
+   .sticky-nav {
+     max-width: 100vw;
+   }
+
+  .sticky-nav-rightmost  {
+    font-size: 4vw;
   }
 
   .sticky-nav-rightmost i {
-    font-size: 8px;
+    font-size: 1rem;
   }
 
-  .subscribe .body {
+  /* .subscribe .body {
     display: block;
     position: absolute;
     top: 30%;
-  }
-} 
+  } */
+}  
