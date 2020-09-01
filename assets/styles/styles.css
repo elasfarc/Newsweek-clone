@@ -276,7 +276,7 @@ footer li {
   }
 }
 
-@media (max-width: 400.98px) {
+ @media (max-width: 400.98px) {
   .sticky-nav-rightmost a {
     width: 60%;
     font-size: 8px;
@@ -291,4 +291,4 @@ footer li {
     position: absolute;
     top: 30%;
   }
-}
+} 
