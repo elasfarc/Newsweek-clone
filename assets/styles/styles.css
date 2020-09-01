@@ -288,3 +288,15 @@ footer li {
     margin: 0 auto;
   }
 }
+
+
+@media (max-width: 400.98px) { 
+  .sticky-nav-rightmost a {
+    width: 60%;
+    font-size: 8px;
+  }
+  .sticky-nav-rightmost i {
+    font-size: 8px;
+  }
+}
+
