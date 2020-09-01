@@ -229,9 +229,14 @@ a:hover {
   height: 227px;
 }
 
+.covers {
+  width: 50%;
+}
+
 #subscribe-cover2 {
   left: 43%;
   top: 7%;
+  transform: translateX(-20%);
 }
 
 /* footer */
@@ -276,12 +281,12 @@ footer li {
   }
 }
 
- @media (max-width: 400.98px) {
-   .sticky-nav {
-     max-width: 100vw;
-   }
+@media (max-width: 400.98px) {
+  .sticky-nav {
+    max-width: 100vw;
+  }
 
-  .sticky-nav-rightmost  {
+  .sticky-nav-rightmost {
     font-size: 4vw;
   }
 
@@ -294,4 +299,4 @@ footer li {
     position: absolute;
     top: 30%;
   } */
-}  
+}
