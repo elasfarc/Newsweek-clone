@@ -66,13 +66,6 @@ a:hover {
   position: relative;
 }
 
-/*
-.sticky-nav {
-  position: sticky;
-  top: 0;
-  z-index: 5;
-} */
-
 .sticky-nav i {
   color: #ff999a;
   font-size: 26px;
@@ -261,12 +254,6 @@ footer li {
   footer li {
     border-right: 0.5px solid #bbb6b667;
   }
-
-  /* .sticky-nav {
-    min-height: 50px;
-    position: fixed;
-    z-index: 1;
-  } */
 }
 
 @media screen and (min-width: 992px) {
