@@ -1,7 +1,7 @@
 # Newsweek clone
  
 This is the 7th collaborative project from Microverse program.
-It is a clone of the Newsweek.com with main focus on the using Bootstrap
+It is a clone of the Newsweek.com with main focus on using Bootstrap
 
 
 ![screenshot](./project-screenshot.png)
